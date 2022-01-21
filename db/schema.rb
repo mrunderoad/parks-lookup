@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2022_01_21_165000) do
   create_table "business", force: :cascade do |t|
     t.string "content"
     t.string "name"
-    t.string "type"
+    t.string "kind"
   end
 
 end

@@ -3,7 +3,7 @@ class AddBusinessTable < ActiveRecord::Migration[5.2]
     create_table :business do |t|
       t.column :content, :string
       t.column :name, :string
-      t.column :type, :string
+      t.column :kind, :string
     end
   end
 end
